@@ -1,0 +1,912 @@
+
+
+.space{
+	margin: 39px 0;
+}
+
+
+/* =====================  top header  ===============*/
+
+.section-1-header{
+	background:#fff;
+	/* #f5ca4a 
+	-webkit-box-shadow: 0px 9px 6px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 9px 6px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 9px 6px -4px rgba(0,0,0,0.75);*/
+	border-bottom: 4px solid #403e38;
+}
+
+.my-menu{
+	float:right !important;
+}
+
+a.navbar-brand.my-logo img {
+    width: 200px;
+    display: block;
+    height: auto;
+    position: relative;
+    top: -50px;
+    padding: 11px;
+}
+
+
+.navbar-default {
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+/*.shadow{
+	-webkit-box-shadow: 0px 9px 6px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 9px 6px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 9px 6px -4px rgba(0,0,0,0.75);
+    z-index: 99999;
+    position: relative;
+}*/
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #0093d0 !important;
+}
+
+
+
+.top-sec-link p {
+    display: block;
+    float: left;
+    margin-right: 11px;
+}
+
+
+
+/* ================================= menu code clsoe  ============================================ */
+
+
+/* ===================== fast search  =============================== */
+
+.search-section-1 {
+    /* background-image: url(../img/search-1.jpg); */
+	display: block;
+    background-size: cover;
+    padding: 20px;
+    min-height: 405px;
+    background: #2b2b2b;
+}
+
+.search-box{
+	padding:13px;
+	background:#fff;
+	border: solid 2px #eee;
+    margin: 15px 0;
+}
+
+.search-img img {
+    margin: 0 auto;
+}
+
+.heading {
+    font-family: 'Merriweather', serif;
+    font-size: 19px;
+    margin: 8px 0;
+	color:#fff;
+}
+
+.search-text p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+.search-text a{
+	color:#0093d0;
+	font-family: 'Merriweather', serif;
+}
+
+.search-button a {
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background: #0093d0;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+hr.border-b {
+    margin: 12px 0;
+}
+
+.input-f{
+	width:20%;
+	padding:8px;
+	font-family: 'Oxygen', sans-serif;
+	margin-left: 10px;
+}
+
+input.submit-f {
+    background: #0093d0;
+    padding: 8px 24px;
+    color: #fff;
+	margin-left: 10px;
+	border:none;
+}
+
+.page-form-f{
+    width: 100%;
+    text-align: center;
+}
+
+.top-sec-link a{
+	color:#000;
+}
+
+.top-sec-link a:hover{
+	color:#000;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== fast search  =============================== */
+
+/* ============================== Page container =========================== */
+
+p{
+	font-family: 'Oxygen', sans-serif;
+}
+
+.small-h{
+	font-size:15px;
+	text-align:center;
+	
+}
+
+.page-h{
+	font-size:29px;
+	text-align:center;
+	color:#0093d0;
+}
+
+.section-2-heading{
+	color:#0093d0;
+	font-family: 'Merriweather', serif;
+	margin: 10px 0;
+}
+
+.section-2-img img {
+    display: block;
+    float: left;
+	margin-right:12px;
+}
+
+.section-2-box {
+    padding: 13px;
+    background: #f9f8f8;
+    border: 1px solid #e0dddd;
+	min-height: 266px;
+	margin: 15px 0;
+}
+
+.section-2-text p{
+	font-size:13px;
+	text-align:justify;
+}
+
+/* ============================== Page container =========================== */
+
+.small-heading{
+    color: #0093d0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+}
+
+.sec-t{
+	text-align: center;
+    display: block;
+    margin: 10px 0;
+}
+
+.sec-w{
+	margin:10px 0;
+}
+
+.section-3-text p {
+    text-align: justify;
+}
+
+.section-3-box{
+	min-height:424px;
+}
+
+.section-learn{
+	margin:0 auto;
+	text-align:center;
+}
+
+.section-learn a{
+    padding: 15px 35px;
+    background: #0093d0;
+	color:#fff;
+    border-radius: 6px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ============================== page text container =========================== */
+
+
+/* ============================== footer code  =========================== */
+
+.footer-bg{
+	background:#414346;
+	border-top:4px solid #101010;
+	margin-top:40px;
+}
+
+.footer-logo img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-space{
+	margin-top:20px;
+}
+
+.footer-t{
+	color:#fff;
+	margin: 25px 0;
+}
+
+/* ---- small footer -- */
+
+.smal-footer{
+	background:#e0e0e0;
+	border-top:3px solid #fffafa;
+	padding-bottom: 20px;
+}
+
+.sec-detail{
+	margin-top:57px;
+}
+
+
+
+.footer-small-44 {
+    float: left;
+    position: relative;
+    top: 16px;
+}
+
+img.footer-small-img22 {
+    display: block;
+    float: left;
+    margin: 0 auto;
+}
+
+.small-footer-section-1{
+	float:right;
+	
+}
+
+.name {
+    width: 100%;
+    padding: 5px;
+    margin-bottom:8px;
+    border: none;
+	color:#000;
+}
+
+.phone {
+    width: 100%;
+    padding: 5px;
+    margin-bottom:8px;
+    border: none;
+	color:#000;
+}
+
+.footer_button {
+    border: none;
+    background: #0093d0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.sec-form-ff{
+	margin:20px 0;
+}
+
+
+/* ============================== footer code  =========================== */
+/* #f5ca4a*/
+
+/* ============================= about =============================*/
+
+.about-section-main{
+	background:#0093d0 ;
+	padding:35px;
+	border-top:5px solid #ccdae1;
+	border-bottom:5px solid #ccdae1;
+	margin-bottom: 20px;
+}
+
+.section-heading{
+	margin:0 auto;
+	display:black;;
+}
+
+.about-section-menu{
+	float:right;
+}
+
+.about-section-menu a.active {
+    /*background: #04388a;*/
+    /*padding: 9px 20px;*/
+    margin-right: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+	font-size:15px;
+	color:#ccdae1;
+}
+
+.about-section-menu a{
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.color{
+	color:#0093d0;
+	font-size:17px;
+}
+
+.about-section-box-s{
+	background:#fff;
+	padding:25px;
+	-webkit-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	min-height: 412px;
+	margin-top: 24px;
+}
+
+.about-space{
+	margin-top:13px !important;
+	margin-bottom:13px !important;
+}
+
+.input-a{
+	width:100%;
+	padding:10px;
+	margin-bottom:15px;
+	font-family:'Oxygen', sans-serif;
+}
+
+.text-area{
+	width:100%;
+	padding:10px;
+	margin-bottom:15px;
+	font-family:'Oxygen', sans-serif;
+}
+
+.submit-a{
+	border:none;
+	text-align:center;
+	font-family:'Oxygen', sans-serif;
+	padding:10px 25px;
+	background:#0093d0;
+	color:#fff;
+}
+
+.section-space-about{
+	margin-top:25px;
+}
+
+.section-center{
+	text-align:center;
+}
+
+.section-layout img{
+	width: auto;
+    height: 415px;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-section-box-s-2{
+	background:#fff;
+	padding:25px;
+	-webkit-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	min-height: 525px;
+	margin-top: 24px;
+}
+
+.page-form-fs{
+	width:100%;
+}
+
+.input-f-s{
+	width: 47%;
+    padding: 8px;
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 10px;
+	margin-bottom: 16px;
+}
+
+.sec-w-a{
+	width:49% !important;
+}
+
+
+
+/* ============================= about =============================*/
+
+/* ============================= Features Opulencia =============================*/
+
+.about-section-3 ul{
+	list-style:none;
+}
+
+.about-section-3 li{
+	padding: 0 0 7px 14px;
+    border-bottom: 1px dotted #e8edee;
+    font-family:'Oxygen', sans-serif;
+    color: #7f868c;
+	background:url(../img/li-check.png) no-repeat left 2px;
+}
+
+
+.about-section-box-f{
+	background:#fff;
+	padding:25px;
+	-webkit-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	min-height: 490px;
+	margin-top: 24px;
+}
+
+
+/* ============================= Features Opulencia =============================*/
+
+
+/* ============================= Amenities Opulencia =============================*/
+
+p.section-page-box {
+    background: #0093d0;
+	color:#fff;
+    padding: 32px;
+    text-align: center;
+    border-radius: 6px;
+	font-weight: 900;
+}
+
+.sec-height{
+	min-height: 481px !important;
+}
+
+.section-t-heading{
+	font-family:'Oxygen', sans-serif;
+	font-size:13px;
+	text-align:justify;
+}
+
+.about-section-box-a-1{
+	background:#fff;
+	padding:25px;
+	-webkit-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	min-height: 440px;
+	margin-top: 24px;
+}
+
+.section-pp-img img{
+
+}
+
+.section-size{
+	padding: 43px !important;
+}
+
+.section-size-2{
+	padding: 43px !important;
+}
+
+
+
+
+/* ============================= Amenities Opulencia =============================*/
+
+
+
+/* ============================= Specifications Opulencia =============================*/
+.coverimg.section-pp2-img img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+	width:100%;
+}
+
+.space1{
+	margin:46px 0;
+}
+
+span.page-note {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.specifications-box{
+	width:100%;
+	padding:6px;
+}
+
+.specifications-heading{
+	font-family:'Merriweather', serif;
+	text-align:center;
+}
+
+.specifications-text{
+	text-align:justify;
+}
+
+.center{
+	text-align:center;
+	margin:15px 0;
+}
+
+.sm-sec{
+	text-align: center;
+    border-bottom: 1px solid #0093d0;
+    padding-bottom: 9px;
+}
+
+.section-box p{
+	text-align:justify;
+}
+
+.sec-s{
+	width:45% !important;
+	float:left;
+	margin-left:15px;
+	
+}
+
+.sec-oo{
+	width:94% !important;
+}
+
+.spec-section-text1 {
+    height: 244px;
+    overflow: scroll;
+    padding: 9px;
+}
+
+p.small-sec {
+    margin: 21px 0 0 0;
+    font-size: 11px;
+}
+
+
+
+
+
+/* ============================= Specifications Opulencia =============================*/
+
+
+/* ============================= floor plan Opulencia =============================*/
+.sec-size img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+}
+
+.input-f1{
+	width:60%;
+	margin-bottom:10px;
+	
+}
+
+.submit-f{
+	border: none;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    padding: 10px 25px;
+    background: #f5ca4a;
+	float:right;
+}
+
+.input-f-m{
+	width: 25%;
+    padding: 8px;
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 10px;
+}
+
+.sec-f-o {
+    float: left;
+    text-align: center;
+    display: block;
+	margin-top: 20px;
+}
+
+/* ============================= floor plan Opulencia =============================*/
+
+/* ============================= Location Opulencia =============================*/
+
+.sec-loc-img {
+    width: 500px;
+    height: auto;
+}
+
+.about-section-box-l{
+	background: #fff;
+    padding: 25px;
+    -webkit-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+    min-height: 400px;
+    margin-top: 24px;
+}
+
+
+/* ============================= location Opulencia =============================*/
+
+/* ============================= sample-flat-opulencia =============================*/
+
+.sm-f-t{
+	font-family:'Merriweather', serif;
+	font-size: 19px;
+	text-align:center;
+	display:block;
+}
+
+.sec-1-space{
+	margin:60px 0;
+}
+
+.sec-dow-1 {
+    padding: 24px;
+    background: #eee;
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+}
+
+/* ============================= sample-flat-opulencia =============================*/
+
+/* ============================= Construction =============================*/
+
+.sec-99-shadow{
+    -webkit-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+	height:200px;
+}
+
+.sec-img-t22{
+	width:100px;
+	height:auto;
+	display:block;
+	margin:0 auto;
+}
+
+.sec-con-down-but {
+    margin: 49px 0;
+    padding: 41px;
+    background: #0093d0;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.sec-con-down-but a {
+	color:#fff;
+}
+
+img.center-sec{
+	display:block;
+	margin:0 auto;
+	padding:30px 0;
+}
+
+.top-sec-link {
+    padding: 8px 0;
+    margin-bottom: 16px;
+    font-family: 'Oxygen', sans-serif;
+    float: right;
+}
+
+.sec-go{
+	margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 16px 0;
+	font-family:'Oxygen', sans-serif;
+	font-size:20px;
+	text-transform: uppercase;
+}
+
+select.sec-option {
+    width: 75%;
+    margin-left: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* ============================= Construction =============================*/
+
+
+/* -----------------------------  thank page new css ------------------------------*/
+.box-logo {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sale-logo {
+    float: left;
+    margin: 0 auto;
+}
+
+.sale-logo img {
+    width: 224px;
+    height: auto;
+    display: block;
+    margin-top: 27px;
+}
+
+@media (max-width: 400px){
+	.box-logo{
+	width:100%;
+	}
+}
+
+.logo {
+    margin: 60px 0;
+}
+
+span.thank-b {
+    color: #fff !important;
+    font-size: 25px;
+}
+
+.thank-b {
+    margin: 0 auto;
+    padding: 15px 0;
+    background: #0093d0;
+    text-align: center;
+    display: block;
+	border-radius:6px;
+}
+
+
+.thank_box {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thank_hedaing {
+    font-family: 'Lobster', cursive;
+    margin-top: 55px;
+    font-size: 104px;
+    color: #0093d0;
+	text-align: center;
+}
+
+.logo img {
+    margin: 0 auto;
+    display: block;
+}
+
+.sale-logo img{
+    margin: 0 auto;
+    display: block;
+}
+
+.sec-link{
+	font-family:'Merriweather', serif;
+}
+
+
+a.sec-link:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+
+/* --------------------------- thank page new css close ------------------ */
+
+/* ================== other change =================== */
+
+.sec-space{
+	margin-top:90px;
+	background:#eff1f5;
+	padding:35px;
+}
+
+.sec-bg{
+	background:#fff;
+	padding:25px;
+}
+
+.project-box {
+    font-size: 30px;
+    margin-top: 10px;
+    display: block;
+}
+
+.sec-loc {
+    float: left;
+    margin: 47px 0;
+    display: block;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color: #fff !important;
+    background-color: #0093d0 !important;
+}
+
+.sec-2-s{
+	height:451px !important;
+}
+
+.sec-color{
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================== other change =================== */

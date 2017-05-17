@@ -1,0 +1,108 @@
+
+/* ============ 600 =================*/
+@media (max-width: 600px){
+	.input-f{
+	width:100%;
+		margin-bottom:6px;
+	}
+	input.submit-f{
+		width:100%;
+		margin:0 auto;
+	}
+	
+	.section-2-img img{
+		width:100%;
+	}
+	.section-2-heading{
+		font-size: 23px;
+		margin: 10px 0;
+		display: block;
+		float: left;
+	}
+	/* about */
+	.section-heading {
+		margin: 11px 0;
+		text-align: center;
+	}
+	.about-section-menu {
+		margin: 23px 0;
+		float:none;
+	}
+	.section-layout img{
+		width: 100%;
+		height: auto;
+	}
+	
+	/* Features Opulencia */
+	.sec-r{
+		margin: 23px 0;
+		width: 264px;
+		text-align: center;
+		float:none;
+	}
+	
+	/* specifications */
+	.about-section-box-s-2{
+		min-height:350px;
+	}
+	.heading{
+		font-size: 20px;
+	}
+	.sec-s{
+		width:100% !important;
+		margin-left:0px;
+	}
+	/* location */
+	img.sec-l-i {
+		width: 288px;
+		margin-bottom: 10px;
+	}
+	/*opulencia-construction-status */
+	.sec-99-shadow{
+		height: auto;
+		padding: 15px 0;
+	}
+	
+	.input-f-m{
+		width:100%;
+		margin-bottom:10px;
+		margin-left:0px;
+	}
+	
+	.input-f-s{
+		width:100%;
+		margin-bottom:10px;
+		margin-left:0px;
+	}
+	
+	.about-section-box-s{
+		min-height: 782px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============ 640 =================*/
+@media (max-width: 640px){
+	.sec-n-i{
+		margin: 0 auto;
+	}
+	.sec-99-shadow{
+		height:auto;
+		padding:15px 0;
+	}
+	.sec-o-n{
+		margin:0 auto;
+	}
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Construction</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"><!-- fast search font -->
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"><!-- fast search p -->
+	<!-- google fonts close -->
+	
+	<!-- image gallery images -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="image-gallery/jQuery-gallery/jquery-gallery.js"></script>
+	<link href="image-gallery/jQuery-gallery/jquery-gallery.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<!-- image gallery images -->
+	</head>
+	
+	</body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-3">
+			
+			</div>
+			
+			<div class="col-sm-12 col-md-6">
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<img src="img/logo.png" class="img-responsive center-sec"/>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-12 col-md-12">
+						<div class="section-form">
+						<h2 class="heading section-center"><strong class="color">ENQUIRY FORM</strong></h2>
+						<hr class="about-space">
+							<form method="post" action="submit-book.php" class="section-about-2" >
+							<input value="" required   aria-required="true" aria-describedby="name-format" class="input-a" type="text" name="name" placeholder="Name*">
+							<input value="" required aria-required="true" class="input-a" type="text" pattern="[^ @]*@[^ @]*" name="email" placeholder="Email*">
+							<input value="" required aria-required="true" class="input-a" pattern="[789][0-9]{9}" type="text" name="phone" placeholder="Phone*">
+							<textarea value="" required aria-required="true" class="input-a" type="text" name="message" placeholder="Message*"></textarea>
+							<input type="submit" id="download-sec"  class="submit-a" name="submit"  value="submit" onclick="download_img()">
+							</form>
+						</div>
+						
+						<div class="sec-go">
+							<a href="index.html">Go Home Page</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-12 col-md-3">
+			
+			</div>
+		
+		</div>
+	</div>
+	
+	<script>
+		function download_img() {
+			var inputs = $('.input-a');
+			var arr_empty = [];
+			for(var i = 0; i < inputs.length; i++){
+			   if (inputs[i].value != "")
+				arr_empty.push((inputs[i]).value);
+			}
+			if (arr_empty.length == inputs.length) {
+			var link = document.createElement('a');
+			link.href = 'download/brochure.jpg';
+			link.download = 'brochure.jpg';
+			document.body.appendChild(link);
+			link.click();
+			}
+		}
+	</script>
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+	
+	
+	
